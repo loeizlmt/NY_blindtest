@@ -1,0 +1,10 @@
+.balloon{
+    height: 30rem;
+    width: 30rem;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+    margin-top: 15%;
+    
+
+}

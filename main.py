@@ -5,10 +5,8 @@ with open('style.css') as f:
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
-with open('main.html') as f:
-    html = f.read()
+st.write("Ceci est un buzzer : ")
 
-st.write("ceci est un buzzer : ")
+st.markdown(""" <center><div onclick="buzzed()" id='balloon' class="balloon"></div></center>""", unsafe_allow_html=True)
 
-st.markdown(f'<html>{html}</html>', unsafe_allow_html=True)
 
